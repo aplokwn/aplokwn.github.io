@@ -1,0 +1,50 @@
+.project-card {
+  width: 50%;
+  opacity: 2;
+  margin-left: 50%;
+  margin-top: 10%;
+
+  .carousel-size {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    //background-color: rgb(240, 240, 240);
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .ctext-zone {
+      font-size: 30px;
+
+      h3 {
+        color: #f4d35e;
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      p {
+        color: #ffffff;
+        font-size: 16px;
+        animation: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .project-card {
+    width: 85%;
+    opacity: 2;
+    margin-left: 8%;
+    margin-top: 5%;
+
+    .carousel-size {
+      height: 500px;
+    }
+    .secondPa {
+      display: none;
+    }
+  }
+}
