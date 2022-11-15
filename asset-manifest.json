@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9fc8bb4.css",
+    "main.js": "/static/js/main.ffb15220.js",
+    "static/js/787.f195bb16.chunk.js": "/static/js/787.f195bb16.chunk.js",
+    "static/media/pacifico.ttf": "/static/media/pacifico.c0d735fc04154e03a691.ttf",
+    "static/media/skill.svg": "/static/media/skill.45d939813a1ada815c779eed9b1b54af.svg",
+    "static/media/merriweather.ttf": "/static/media/merriweather.da67ca8c38ef44c4773d.ttf",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.9dbbc9db793f1cc4fc13.ttf",
+    "static/media/ABS_pic.webp": "/static/media/ABS_pic.ea40e7bc34b8b1081ace.webp",
+    "static/media/coolvetica.otf": "/static/media/coolvetica.3d81d0e1fdbd5f69b232.otf",
+    "static/media/APportfolio01.webp": "/static/media/APportfolio01.96e1ed40726611ab46fe.webp",
+    "static/media/LaBelleAurore-Regular.ttf": "/static/media/LaBelleAurore-Regular.bc43b15661f3e942b3f6.ttf",
+    "static/media/APportfolio02.webp": "/static/media/APportfolio02.df4a8e269e29d5dc25e0.webp",
+    "static/media/resume_lywanapril.pdf": "/static/media/resume_lywanapril.4df4a3b403b3aab16bfb.pdf",
+    "static/media/aplogo.png": "/static/media/aplogo.da85351cc940a0b370ef.png",
+    "static/media/reactRandom.png": "/static/media/reactRandom.1355a982a0d90e6564bb.png",
+    "static/media/aboutme.png": "/static/media/aboutme.4bb12674f46255f45d3e.png",
+    "static/media/project.png": "/static/media/project.efa81104670adf7777ea.png",
+    "static/media/logo-s.png": "/static/media/logo-s.9c25d7e1eb6ab8659748.png",
+    "static/media/spring.webp": "/static/media/spring.dd76bfe0e2afb6988cea.webp",
+    "static/media/tool.png": "/static/media/tool.6d5eee43e14ed98e44c5.png",
+    "static/media/code.svg": "/static/media/code.c11e604bae6c7b12236e240e7c7a4f6d.svg",
+    "static/media/xd.png": "/static/media/xd.9400f2cee85efa674618.png",
+    "static/media/mail.png": "/static/media/mail.84a385f85b767a04446f.png",
+    "static/media/photoshop.png": "/static/media/photoshop.d4fa1f55e21c0feb73cf.png",
+    "static/media/illustrator.png": "/static/media/illustrator.182a603316f6c5ebc570.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.1ebd30a3c64248b7d9f0.png",
+    "static/media/contact.svg": "/static/media/contact.1ed08067659ac6ef43b247078f415bfa.svg",
+    "index.html": "/index.html",
+    "main.f9fc8bb4.css.map": "/static/css/main.f9fc8bb4.css.map",
+    "main.ffb15220.js.map": "/static/js/main.ffb15220.js.map",
+    "787.f195bb16.chunk.js.map": "/static/js/787.f195bb16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9fc8bb4.css",
+    "static/js/main.ffb15220.js"
+  ]
+}
