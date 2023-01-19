@@ -1,0 +1,79 @@
+//Phone
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  .tags,
+  .project-page h1::before,
+  .project-page h1::after {
+    display: none;
+  }
+
+  .project-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 15px;
+    }
+
+    .slider {
+      width: 50%;
+      height: 90%;
+    }
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px 80% 20px auto;
+      width: 180px;
+    }
+  }
+}
+
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  tags,
+  .project-page h1::before,
+  .project-page h1::after {
+    display: none;
+  }
+
+  .project-page {
+    .text-zone {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 15px;
+    }
+
+    .slider {
+      width: 50%;
+      height: 90%;
+    }
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px 80% 20px auto;
+      width: 180px;
+    }
+  }
+}

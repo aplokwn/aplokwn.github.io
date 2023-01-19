@@ -1,0 +1,258 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+
+  .skill-tag {
+    display: block;
+    width: 130px;
+    height: 30px;
+    color: #ffd700;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    align-items: center;
+    //background-color: #ff7c36;
+
+    .skill-text {
+      color: #fff;
+    }
+
+    img {
+      width: 15px;
+      height: 15px;
+      color: #fee1c7;
+    }
+  }
+}
+
+.bg-container {
+  position: absolute;
+  display: block;
+  z-index: -1;
+  width: 40%;
+  height: auto;
+  top: 0%;
+  bottom: 0%;
+  left: 60%;
+  background-color: #fee1c7;
+  animation: fadeIn 0.5s linear both;
+  animation-delay: 0.5s;
+
+  .solid-img {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 35%;
+    left: 5%;
+  }
+}
+
+//Phone
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  .tags,
+  .skill-page h1::before,
+  .skill-page h1::after {
+    display: none;
+  }
+
+  .skill-page {
+    .text-zone {
+      position: initial;
+      width: 50%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 15px;
+    }
+  }
+
+  .skill-tag {
+    display: block;
+    margin-left: 8%;
+    width: 130px;
+    height: 30px;
+    color: #ffd700;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    align-items: center;
+    //background-color: #ff7c36;
+
+    .skill-text {
+      color: #fff;
+    }
+  }
+  .sm {
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top: 30px;
+
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px 80% 20px auto;
+      width: 180px;
+      margin-top: -10px;
+    }
+  }
+
+  .bg-container {
+    position: relative;
+    z-index: -1;
+    width: 80%;
+    margin-top: -80px;
+    left: 0px;
+    box-sizing: border-box;
+    animation: fadeIn 1s linear both;
+    animation-delay: 1s;
+
+    .solid-img {
+      position: relative;
+      width: 210px;
+      height: 210px;
+      left: 25%;
+    }
+  }
+}
+
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .tags,
+  .skill-page h1::before,
+  .skill-page h1::after {
+    display: none;
+  }
+
+  .skill-page {
+    .text-zone {
+      position: initial;
+      width: 50%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 15px;
+    }
+  }
+
+  .skill-tag {
+    display: block;
+    margin-left: 8%;
+    width: 130px;
+    height: 30px;
+    color: #ffd700;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    align-items: center;
+    //background-color: #ff7c36;
+
+    .skill-text {
+      color: #fff;
+    }
+  }
+
+  .bg-container {
+    position: relative;
+    margin-top: -20px;
+    left: 15%;
+
+    .solid-logo {
+      position: relative;
+      width: 50%;
+      height: auto;
+      left: 0%;
+    }
+  }
+}
+
+//sm screen
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .tags,
+  .skill-page h1::before,
+  .skill-page h1::after {
+    display: none;
+  }
+
+  .skill-page {
+    .text-zone {
+      position: initial;
+      width: 50%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 15px;
+    }
+  }
+
+  .skill-tag {
+    display: block;
+    margin-left: 8%;
+    width: 130px;
+    height: 30px;
+    color: #ffd700;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    align-items: center;
+    //background-color: #ff7c36;
+
+    .skill-text {
+      color: #fff;
+    }
+  }
+
+  .bg-container {
+    position: relative;
+    margin-top: -50px;
+    left: 22%;
+
+    .solid-logo {
+      position: inherit;
+      width: 50%;
+      height: auto;
+      left: 0%;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 3839px) {
+  //For Projectors or Higher Resolution Screens (Full HD)
+  .container {
+    width: 1890px;
+  }
+}
+@media screen and (min-width: 3840px) {
+  //For 4K Displays (Ultra HD)
+  .container {
+    width: 3810px;
+  }
+}

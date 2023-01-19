@@ -1,0 +1,109 @@
+.project-container {
+  position: absolute;
+  width: 45%;
+  height: auto;
+  top: 22%;
+  left: 50%;
+
+  .project-card {
+    //position: absolute;
+    width: 100%;
+    opacity: 2;
+    left: 0;
+
+    .carousel-size {
+      height: 550px;
+      align-items: center;
+      justify-content: center;
+      //background-color: rgb(240, 240, 240);
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .ctext-zone {
+        font-size: 30px;
+
+        h3 {
+          color: #f4d35e;
+          font-size: 20px;
+          font-weight: 500;
+        }
+
+        p {
+          color: #ffffff;
+          font-size: 16px;
+          animation: none;
+        }
+      }
+    }
+  }
+}
+
+//Phone
+@media screen and (min-width: 280px) and (max-width: 767px) {
+  .project-container {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    opacity: 2;
+
+    .project-card {
+      position: relative;
+      width: 100%;
+      margin-top: 5%;
+
+      .carousel-size {
+        height: 350px;
+      }
+
+      p,
+      .secondPa {
+        display: none;
+      }
+    }
+  }
+}
+
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .project-container {
+    position: relative;
+    width: 100%;
+    left: 0;
+    margin-top: 5%;
+
+    .project-card {
+      position: absolute;
+      width: 90%;
+      opacity: 2;
+      left: 2%;
+
+      .carousel-size {
+        height: 500px;
+      }
+    }
+  }
+}
+
+//sm screen
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .project-container {
+    position: relative;
+    width: 100%;
+    left: 0;
+    margin-top: 10%;
+
+    .project-card {
+      position: absolute;
+      width: 90%;
+      opacity: 2;
+      left: 2%;
+
+      .carousel-size {
+        height: 550px;
+      }
+    }
+  }
+}
