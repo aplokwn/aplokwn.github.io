@@ -45,6 +45,7 @@
 }
 
 //About
+//@media screen and (min-width: 1200px) and (max-width: 1919px) {
 .about-page {
   .text-zone {
     position: absolute;
@@ -102,7 +103,8 @@
     height: auto;
     top: 0%;
     bottom: 0%;
-    left: 60%;
+    left: 55%;
+    background-color: #4c1e4f;
     animation: fadeIn 1s linear both;
     animation-delay: 1s;
 
@@ -273,7 +275,7 @@
     &::before {
       //content: 'String.format("%s%n","';
       font-family: 'La Belle Aurore';
-      color: #fdd785;
+      //color: #fdd785;
       font-size: 18px;
       line-height: 30px;
       position: absolute;
@@ -318,6 +320,55 @@
       color: #333;
     }
   }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+    .skill-tag {
+      display: block;
+      width: 130px;
+      height: 30px;
+      color: #ffd700;
+      text-align: center;
+      font-size: 18px;
+      padding: 5px;
+      align-items: center;
+      //background-color: #ff7c36;
+
+      .skill-text {
+        color: #fff;
+      }
+
+      img {
+        width: 15px;
+        height: 15px;
+        color: #fee1c7;
+      }
+    }
+  }
+
+  .bg-container {
+    position: absolute;
+    display: block;
+    z-index: -1;
+    width: 40%;
+    height: auto;
+    top: 0%;
+    bottom: 0%;
+    left: 55%;
+    background-color: #4c1e4f;
+    animation: fadeIn 0.5s linear both;
+    animation-delay: 0.5s;
+
+    .solid-img {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      top: 23%;
+    }
+  }
 }
 
 .text-animate-hover {
@@ -326,7 +377,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .page {
     position: initial;
   }

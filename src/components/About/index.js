@@ -38,7 +38,7 @@ const About = () => {
 
           <div className='bg-container'>
             <div className='solid-img'>
-              <img src={skillImg} />
+              <img src={skillImg} alt="computer" />
             </div>
 
           </div>

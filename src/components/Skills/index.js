@@ -80,6 +80,7 @@ const Skills = () => {
               </div>
             </div>
             <br />
+            <br />
             <p>...And MORE!</p>
             <p>
               By the way, I also speak 4 human languages <FontAwesomeIcon icon={faFaceGrinWink} /> :

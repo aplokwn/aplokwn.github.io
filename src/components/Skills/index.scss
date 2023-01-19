@@ -1,56 +1,5 @@
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
-
-  .skill-tag {
-    display: block;
-    width: 130px;
-    height: 30px;
-    color: #ffd700;
-    text-align: center;
-    font-size: 18px;
-    padding: 5px;
-    align-items: center;
-    //background-color: #ff7c36;
-
-    .skill-text {
-      color: #fff;
-    }
-
-    img {
-      width: 15px;
-      height: 15px;
-      color: #fee1c7;
-    }
-  }
-}
-
-.bg-container {
-  position: absolute;
-  display: block;
-  z-index: -1;
-  width: 40%;
-  height: auto;
-  top: 0%;
-  bottom: 0%;
-  left: 60%;
-  background-color: #fee1c7;
-  animation: fadeIn 0.5s linear both;
-  animation-delay: 0.5s;
-
-  .solid-img {
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    top: 35%;
-    left: 5%;
-  }
-}
-
 //Phone
-@media screen and (min-width: 280px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 768px) {
   .tags,
   .skill-page h1::before,
   .skill-page h1::after {
@@ -127,7 +76,7 @@
 }
 
 //Tablet
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .tags,
   .skill-page h1::before,
   .skill-page h1::after {
@@ -186,7 +135,7 @@
 }
 
 //sm screen
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .tags,
   .skill-page h1::before,
   .skill-page h1::after {
@@ -244,12 +193,130 @@
   }
 }
 
-@media screen and (min-width: 1920px) and (max-width: 3839px) {
+@media screen and (min-width: 1920px) and (max-width: 3840px) {
   //For Projectors or Higher Resolution Screens (Full HD)
-  .container {
-    width: 1890px;
+
+  .skill-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 52%;
+      transform: translateY(-50%);
+      width: 50%;
+      vertical-align: middle;
+      max-height: 90%;
+      display: table-cell;
+    }
+
+    h1 {
+      color: #ffd700;
+      font-size: 5vw;
+      line-height: 6vw;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+
+      &::before {
+        //content: 'String.format("%s%n","';
+        font-family: 'La Belle Aurore';
+        //color: #fdd785;
+        font-size: 18px;
+        line-height: 30px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+      img {
+        margin-top: -5%;
+        width: 5vw;
+        opacity: 0;
+        height: auto;
+        animation: fadeIn 1s linear both;
+        animation-delay: 1.4s;
+      }
+    }
+    p {
+      font-size: 1.5vw;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: sans-serif;
+      letter-spacing: 2px;
+      min-width: fit-content;
+      animation: pulse 1s;
+    }
+    .flat-button {
+      color: #fee1c7;
+      font-size: 1.5vw;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 1.5vw 4vw;
+      border: 0.2vw solid #fee1c7;
+      margin-top: 1.5vw;
+      float: left;
+      animation: fadeInAnimation 1s 1.8s backwards;
+      white-space: nowrap;
+
+      &:hover {
+        background: #ff7c36;
+        color: #333;
+      }
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      padding-bottom: 1vw;
+
+      .skill-tag {
+        display: block;
+        width: 12vw;
+        height: 3vw;
+        color: #ffd700;
+        text-align: center;
+        font-size: 1.5vw;
+        padding: 1.1vw;
+        align-items: center;
+        //background-color: #ff7c36;
+
+        .skill-text {
+          color: #fff;
+        }
+
+        img {
+          width: 1.5vw;
+          height: 1.5vw;
+          color: #fee1c7;
+        }
+      }
+    }
+
+    .bg-container {
+      position: absolute;
+      display: block;
+      z-index: -1;
+      width: 40%;
+      height: auto;
+      top: 0%;
+      bottom: 0%;
+      left: 62%;
+      background-color: #4c1e4f;
+      animation: fadeIn 0.5s linear both;
+      animation-delay: 0.5s;
+
+      .solid-img {
+        position: absolute;
+        width: 32vw;
+        height: auto;
+        top: 23%;
+      }
+    }
   }
 }
+
 @media screen and (min-width: 3840px) {
   //For 4K Displays (Ultra HD)
   .container {

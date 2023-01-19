@@ -1,5 +1,5 @@
 //Phone
-@media screen and (min-width: 280px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 768px) {
   .tags,
   .about-page h1::before,
   .about-page h1::after {
@@ -48,7 +48,7 @@
 }
 
 //Tablet
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .tags,
   .about-page h1::before,
   .about-page h1::after {
@@ -131,14 +131,88 @@
       bottom: 150px;
       left: 0px;
       box-sizing: border-box;
-      animation: fadeIn 1s linear both;
-      animation-delay: 1s;
+      animation: fadeIn 0.5s linear both;
+      animation-delay: 0.5s;
 
       .solid-img {
         position: relative;
         width: 500px;
         height: 500px;
         left: 20%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 3840px) {
+  //For Projectors or Higher Resolution Screens (Full HD)
+  .about-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 55%;
+      transform: translateY(-50%);
+      width: 45%;
+      vertical-align: middle;
+      max-height: 90%;
+      display: table-cell;
+    }
+
+    h1 {
+      color: #ffd700;
+      font-size: 5vw;
+      line-height: 6vw;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+
+      &::before {
+        //content: 'String.format("%s%n","';
+        font-family: 'La Belle Aurore';
+        color: #fdd785;
+        font-size: 18px;
+        line-height: 20px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+      img {
+        margin-top: -5%;
+        width: 5vw;
+        opacity: 0;
+        height: auto;
+        animation: fadeIn 1s linear both;
+        animation-delay: 1.4s;
+      }
+    }
+    p {
+      font-size: 1.5vw;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+      min-width: fit-content;
+      animation: pulse 1s;
+    }
+    .bg-container {
+      position: absolute;
+      display: block;
+      z-index: -1;
+      width: 40%;
+      height: auto;
+      top: 0%;
+      bottom: 0%;
+      left: 58%;
+      background-color: #4c1e4f;
+      animation: fadeIn 1s linear both;
+      animation-delay: 1s;
+
+      .solid-img {
+        position: absolute;
+        width: 33vw;
+        height: auto;
+        top: 25%;
       }
     }
   }
