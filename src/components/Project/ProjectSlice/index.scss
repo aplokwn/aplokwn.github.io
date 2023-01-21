@@ -2,41 +2,37 @@
   position: absolute;
   width: 45%;
   height: auto;
-  top: 15%;
+  top: 5%;
   left: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aqua;
 
   .project-card {
     //position: absolute;
-    width: 100%;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
     opacity: 2;
-    left: 0;
 
-    .carousel-size {
-      height: 550px;
-      align-items: center;
-      justify-content: center;
-      //background-color: rgb(240, 240, 240);
+    background-color: #f4d35e;
 
-      img {
-        width: 100%;
-        height: auto;
-      }
+    img {
+      width: 100%;
+      height: auto;
+    }
 
-      .ctext-zone {
-        font-size: 30px;
+    h3 {
+      color: #f4d35e;
+      font-size: 20px;
+      font-weight: 500;
+    }
 
-        h3 {
-          color: #f4d35e;
-          font-size: 20px;
-          font-weight: 500;
-        }
-
-        p {
-          color: #ffffff;
-          font-size: 16px;
-          animation: none;
-        }
-      }
+    p {
+      color: #ffffff;
+      font-size: 16px;
+      animation: none;
     }
   }
 }

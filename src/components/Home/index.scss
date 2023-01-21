@@ -242,12 +242,12 @@
   }
 }
 
+//For Projectors or Higher Resolution Screens (Full HD)
 @media screen and (min-width: 1920px) and (max-width: 3839px) {
-  //For Projectors or Higher Resolution Screens (Full HD)
   .home-page {
     .text-zone {
       position: absolute;
-      left: 10%;
+      left: 12%;
       top: 50%;
       transform: translateY(-50%);
       width: 40%;
@@ -256,8 +256,8 @@
 
     h1 {
       color: #fee1c7;
-      font-size: 4vw;
-      line-height: 6vw;
+      font-size: 3.5vw;
+      line-height: 5vw;
       margin: 0;
       font-family: 'Coolvetica';
       font-weight: 400;
@@ -283,11 +283,12 @@
     }
     h2 {
       color: #fee1c7;
-      margin-top: 1.5vw;
       font-weight: 400;
-      font-size: 3vw;
+      font-size: 2vw;
       font-family: sans-serif;
-      letter-spacing: 3px;
+      letter-spacing: 0.2vw;
+      line-height: 3vw;
+      padding-top: 0.1vw;
       padding-bottom: 1.5vw;
       animation: fadeIn 1s 1.8s backwards;
     }

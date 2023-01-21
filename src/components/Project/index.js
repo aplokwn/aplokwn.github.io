@@ -34,8 +34,6 @@ const Project = () => {
           </div>
 
           <ProjectCard />
-
-
         </div>
 
 
